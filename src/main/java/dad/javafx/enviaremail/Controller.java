@@ -130,7 +130,7 @@ public class Controller implements Initializable{
 		loader.load();
 	}
 
-	public GridPane getView() {
+	public GridPane getView() { //devuelve el objeto view de tipo GridPane, que es el que contiene todos los elementos de la vista
 		return view;
 	}
 }
